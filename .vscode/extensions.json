@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "runem.lit-plugin",
+    "vscjava.vscode-java-pack",
+    "vmware.vscode-spring-boot"
+  ],
+  "unwantedRecommendations": []
+}
