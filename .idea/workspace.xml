@@ -4,28 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="595628e3-6e11-4136-a63f-00a9bf4998b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
+    <list default="true" id="595628e3-6e11-4136-a63f-00a9bf4998b7" name="Changes" comment="code.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/routes.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/stores/app-store.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/themes/hilla-svelte/main-layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/themes/hilla-svelte/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/themes/hilla-svelte/theme.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/about/about-view.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/helloworld/hello-world-view.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/main-layout.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/views/view.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/application/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/application/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/application/endpoints/helloworld/HelloWorldEndpoint.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,11 +72,23 @@
       <option name="presentableId" value="Default" />
       <updated>1687525141072</updated>
       <workItem from="1687525141452" duration="3000" />
-      <workItem from="1687611490380" duration="3132000" />
+      <workItem from="1687611490380" duration="3297000" />
     </task>
+    <task id="LOCAL-00001" summary="code.">
+      <created>1687614866257</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687614866257</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="code." />
+    <option name="LAST_COMMIT_MESSAGE" value="code." />
   </component>
 </project>
