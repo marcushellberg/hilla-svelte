@@ -6,3 +6,13 @@ For proper support, we would need to create Svelte wrappers.
 Notes:
 - The `tsconfig.json` is a quick merge of the Hilla and Vite+Svelte configs - it could probably be simplified a lot.
 - TypeScript does not work in Svelte components. `svelte.config.js` is not getting picked up for some reason
+
+## Requirements
+- Java 17+
+
+## Running the app
+Run the app by running `Application.java` or with the default Maven goal:
+
+```
+mvn
+```
