@@ -1,9 +1,9 @@
-import { UserConfigFn } from 'vite';
-import { overrideVaadinConfig } from './vite.generated';
+import { UserConfigFn } from "vite";
+import { overrideVaadinConfig } from "./vite.generated";
+import { svelte } from "@sveltejs/vite-plugin-svelte";
 
 const customConfig: UserConfigFn = (env) => ({
-  // Here you can add custom Vite parameters
-  // https://vitejs.dev/config/
+  plugins: [svelte()],
 });
 
 export default overrideVaadinConfig(customConfig);

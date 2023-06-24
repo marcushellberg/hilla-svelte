@@ -1,17 +1,14 @@
-import { Router } from '@vaadin/router';
-import { routes } from './routes.js';
-import { appStore } from './stores/app-store.js';
+import App from "./App.svelte";
 
-export const router = new Router(document.querySelector('#outlet'));
+import "./app.css";
+// Init Vaadin Lumo styling
+import { color, typography } from "@vaadin/vaadin-lumo-styles/all-imports.js";
 
-router.setRoutes(routes);
+const style = document.createElement("style");
+style.innerHTML = `${color.toString()} ${typography.toString()}`;
 
-window.addEventListener('vaadin-router-location-changed', (e) => {
-  appStore.setLocation((e as CustomEvent).detail.location);
-  const title = appStore.currentViewTitle;
-  if (title) {
-    document.title = title + ' | ' + appStore.applicationName;
-  } else {
-    document.title = appStore.applicationName;
-  }
+document.head.appendChild(style);
+
+const app = new App({
+  target: document.getElementById("app")!,
 });
